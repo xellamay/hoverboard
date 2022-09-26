@@ -1,1 +1,3 @@
-# hoverboard
+# Hoverboard
+## Демо можно посмотреть [здесь](https://xellamay.github.io/hoverboard/)
+Просто забавная штука :) При наведении квадратик рандомно меняет цвет. Реализован с помощью HTML, CSS и JS.

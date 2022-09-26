@@ -1,29 +1,32 @@
 body {
+    margin: 0;
+    padding: 0;
     height: 100vh;
-    width: 100vh;
-    margin: 0 auto;
-    display: flex;
-
-}
-
-.container {
+    width: 100vw;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
+}
+
+.hoverboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    max-width: 170px;
-    margin: 0 auto;
+    width: 170px;
 }
 
 .square {
+    box-sizing: border-box;
     background-color: #1d1d1d;
     width: 30px;
     height: 30px;
-    margin: 2px;
+    padding: 2px;
+    border: solid 1px white;
     transition: 2s ease;
 }
 
 .square:hover {
     transition-duration: 0s;
-  }
+}
